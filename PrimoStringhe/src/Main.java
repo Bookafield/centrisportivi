@@ -10,8 +10,10 @@ public class Main {
 		String s3=new String ("Ciam");
 		String s4=new String("Cam");
 		String s5=new String("Caociao");
+		String s6=new String("Daodiao");
 		
 		
+		// MODIFICATI STRONZO
 		
 		System.out.println(s1.compareTo(s2));
 		System.out.println(s1.compareToIgnoreCase(s2));
@@ -21,6 +23,10 @@ public class Main {
 	    System.out.println(s1.equals(s4));
 	    System.out.println(s1.substring(0, 2));
 	    System.out.println(s2.endsWith(s5));
+	    System.out.println(s2.equals(s4));
+	    System.out.println(s3.substring(0, 2));
+	    System.out.println(s4.endsWith(s5));
+			
 			
 			
 		}
