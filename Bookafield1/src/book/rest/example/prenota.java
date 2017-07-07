@@ -1,3 +1,4 @@
+
 package book.rest.example;
 
 import javax.ws.rs.GET;
@@ -16,6 +17,7 @@ public class prenota{
 		
 		String output = "Welcome to Word of REST :"+msg;
 		return Response.status(200).entity(output).build();
+		// fottiti
 	}
 	
 }
