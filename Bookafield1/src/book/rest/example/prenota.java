@@ -17,5 +17,6 @@ public class prenota{
 		String output = "Welcome to Word of REST :"+msg;
 		return Response.status(200).entity(output).build();
 	}
+	//benvenuto
 	
 }
